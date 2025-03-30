@@ -3,7 +3,7 @@
 # TODO (Run this script as): color magenta && echo hello && color reset
 
 color() {
-    echo -ne "\033[$1;$2m"
+    echo -ne "\033[$1;$2m"]
 }
 
 declare -A color_mapping=(
